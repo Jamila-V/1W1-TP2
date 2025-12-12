@@ -1,0 +1,298 @@
+.centre {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.conteneur {
+  margin-bottom: 0px;
+}
+.trans {
+  position: relative;
+  top: 10px;
+}
+.trans-fin {
+  position: relative;
+  bottom: -5px;
+}
+/*=============texte general===*/
+
+p {
+  font-family: batman;
+  letter-spacing: 2px;
+}
+li {
+  font-family: mygames;
+  letter-spacing: 4px;
+}
+/*======caption==*/
+h2,
+caption {
+  font-family: batman;
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 15px;
+  transform: scale(1);
+  transition: transform 1s;
+}
+h2:hover,
+caption:hover {
+  transform: scale(0.9);
+}
+/*====================================================================main===*/
+/*======================================================Accueil===*/
+
+.layout {
+  display: flex;
+  gap: 15px;
+
+  max-height: 600px;
+}
+.trans-fin-ac {
+  min-width: 1800px;
+  position: relative;
+  bottom: -5px;
+}
+/*====premiere section==*/
+.texte {
+  color: white;
+  display: inline-block;
+  background-color: black;
+  box-shadow: 0px 2px 7px red;
+
+  position: relative;
+  top: 130px;
+  padding: 10px;
+
+  z-index: 98;
+}
+.bouton_ins {
+  text-decoration: none;
+  font-family: game;
+  font-size: 20px;
+  color: white;
+
+  padding: 7px;
+  margin-left: 160px;
+
+  background: linear-gradient(180deg, #c42323, #4e0d12);
+}
+/*========texte premiere section*/
+#accueil h2 {
+  font-size: 30px;
+}
+#accueil p {
+  font-size: 20px;
+  width: 450px;
+}
+#accueil ul {
+  font-size: 19px;
+  padding: 0 0 0 35px;
+}
+
+/*====deuxieme section==*/
+.info {
+  width: 200px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  text-align: center;
+  background-color: #000000;
+
+  position: absolute;
+  top: 350px;
+  right: 50px;
+
+  z-index: 10;
+}
+
+/*======background==*/
+.opacite_img {
+  background-image: url(../image/Arcade.jpg);
+  background-size: cover;
+  position: relative;
+  isolation: isolate;
+}
+.opacite_img::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(180deg, #9e4848, #9d2727);
+  opacity: 0.4;
+}
+
+/*===============================================Articles===*/
+#articles {
+  background: linear-gradient(0deg, #9e7f48, #9d7227);
+}
+/*==============texte articles*/
+.art_h3 {
+  font-family: mygames;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 28);
+}
+.art_p {
+  font-size: 15px;
+  letter-spacing: 7px;
+}
+.sous-titre {
+  font-family: game;
+  letter-spacing: 10px;
+  font-size: 15px;
+}
+/*================================================Tableau===*/
+#tableau {
+  background: linear-gradient(0deg, #9e9e48, #9b9d27);
+}
+
+table {
+  margin: 0 auto;
+  height: 500px;
+}
+
+thead {
+  font-family: batman;
+  color: #000000;
+  text-align: center;
+  background-color: rgb(236, 233, 26);
+  filter: grayscale(50%) hue-rotate(360deg) saturate(200%);
+  transform: scale(1);
+  transition: filter 3s, transform 2s;
+}
+thead:hover {
+  filter: none;
+  transform: scale(1.05);
+}
+tbody {
+  font-family: game;
+  font-size: 18px;
+  color: #faf602;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  filter: grayscale(20%) hue-rotate(360deg) saturate(200%);
+  transition: filter 3s;
+}
+tbody:hover {
+  filter: none;
+}
+
+/*=====================================================Galerie===*/
+#galerie {
+  background: linear-gradient(0deg, #489e55, #279d3f);
+}
+
+/*======================================================Video===*/
+#video {
+  background: linear-gradient(0deg, #4f489e, #39279d);
+}
+.figure_vid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+iframe {
+  box-shadow: 10px 0px 2px black;
+}
+/*===================================================Inscription===*/
+#inscription {
+  background: linear-gradient(0deg, #87489e, #80279d);
+}
+/*======texte inscription*/
+#inscription p {
+  font-family: batman;
+  font-size: 15px;
+  text-align: center;
+}
+label {
+  font-family: batman;
+}
+legend {
+  font-family: batman;
+  font-size: 11px;
+  letter-spacing: 2px;
+  padding: 8px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background-color: #31094b;
+  text-align: start;
+}
+
+/*======================================================================Footer===*/
+.footer {
+  background-color: rgb(242, 175, 245);
+}
+footer section {
+  min-height: 100px;
+  background: black;
+  box-shadow: 3px 0px 3px black;
+  border-radius: 15px;
+}
+.rangee_footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+.icon_reseau {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+  gap: 10px;
+}
+/*=====texte footer*/
+footer h2 {
+  font-family: game;
+  text-align: center;
+  color: rgb(233, 214, 235);
+  text-shadow: 2px 2px 2px rgb(255, 0, 200);
+
+  margin-bottom: 5px;
+  padding-top: 5px;
+}
+footer p {
+  font-family: game;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+
+  margin: 0 auto;
+  padding: 5px 5px 5px 5px;
+}
+
+/*========================extra*/
+.extra_pied {
+  color: white;
+  text-align: center;
+
+  background-color: #000000;
+  margin-top: 5px;
+}
+.bouton_acceuil {
+  font-family: game;
+  letter-spacing: 5px;
+  text-decoration: none;
+  color: white;
+
+  background: linear-gradient(rgb(247, 128, 147), pink);
+  padding: 5px 16px 5px 20px;
+}
+.bouton_acceuil:hover {
+  background: linear-gradient(rgb(255, 211, 218), rgb(251, 133, 153));
+}
+
+/*==========texte extra*/
+footer h3 {
+  font-family: batman;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+footer h4 {
+  font-family: batman;
+  letter-spacing: 5px;
+}

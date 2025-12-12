@@ -1,0 +1,42 @@
+/*======articles======*/
+.article {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 10px;
+
+  font-family: batman;
+  color: aliceblue;
+  text-align: center;
+}
+
+/*element du conteneur*/
+.art_div {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 500px;
+  background-color: black;
+  padding: 5px;
+}
+
+.art_fig {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
+}
+
+/*element singulier*/
+
+.art_img {
+  height: 150px;
+  width: 400px;
+}
+.art_figcap {
+  color: rgb(0, 0, 0);
+  letter-spacing: 4px;
+  background-color: rgba(255, 255, 255, 0.788);
+}
+
+.article:nth-of-type(odd) .art_fig {
+  order: -1;
+}

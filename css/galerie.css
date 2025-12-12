@@ -1,0 +1,26 @@
+/*======galerie======*/
+.gal_fig {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gal_img {
+  height: 200px;
+  width: 200px;
+  transform: rotate(10deg);
+  filter: opacity(70%) grayscale(100%);
+  transition: filter 1s;
+
+  padding: 10px;
+  background-color: white;
+
+  box-shadow: 2px 2px 2px black;
+}
+/*======effect*/
+.gal_img:hover {
+  filter: none;
+  z-index: 98;
+}
+.gal_img:nth-last-of-type(odd) {
+  transform: rotate(-10deg);
+}

@@ -1,0 +1,35 @@
+/*======formulaire======*/
+fieldset {
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  box-shadow: 0px 5px 7px rgb(194, 39, 255);
+}
+.form__div {
+  padding: 15px 0 20px 0px;
+}
+
+.form__rad {
+  margin: 0 5px 0 5px;
+}
+
+
+/*bouton inscription*/
+.form__submit {
+  font-family: batman;
+  color: #2f0442;
+  background-color: #d9a2fb;
+
+  display: block;
+  margin: 10px auto;
+
+  background: linear-gradient(180deg, #d9a2fb, #6d00a0);
+  border-radius: 5px;
+}
+.form__submit:hover {
+  color: #eae6ec;
+  background: linear-gradient(90deg, #6d00a0, #cc7efc);
+}

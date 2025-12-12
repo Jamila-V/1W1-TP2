@@ -1,0 +1,86 @@
+/*======Menu======*/ 
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  background-color: #000;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 20px;
+  z-index: 99;
+}
+
+.menu__burger {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+
+/*=========Menu A ===*/
+.menu__a {
+  font-family: batman;
+  font-size: 15px;
+  text-decoration: none;
+  margin-right: 18px;
+
+  transform: translateY(0%);
+  transition: transform 1s;
+}
+
+.menu__a:link {
+  padding: 10px 10px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+/*=========== Menu recherche===*/
+.menu__recherche {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menu__recherche :hover {
+  font-size: 18px;
+  box-shadow: 0px 0px 5px #ffffff;
+  transform: translateY(20%);
+}
+.menu__recherche,
+#chk-burger {
+  display: none;
+}
+
+#chk-burger:checked ~ .menu__recherche {
+  display: flex;
+}
+
+/*=============Couleur===*/
+.red {
+  color: red;
+  text-shadow: 1px 1px 5px rgb(255, 0, 0);
+}
+.orange {
+  color: orange;
+  text-shadow: 1px 1px 5px rgb(255, 123, 0);
+}
+.yellow {
+  color: yellow;
+  text-shadow: 1px 1px 5px rgb(255, 230, 0);
+}
+.green {
+  color: green;
+  text-shadow: 1px 1px 5px rgb(14, 156, 1);
+}
+.blue {
+  color: blue;
+  text-shadow: 1px 1px 5px rgb(1, 30, 196);
+}
+.purple {
+  color: rgb(184, 5, 184);
+  text-shadow: 1px 1px 5px rgb(153, 0, 255);
+}

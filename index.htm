@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tp2</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/articles.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/formulaire.css" />
+    <link rel="stylesheet" href="css/galerie.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ==========================================================HEADER -->
+    <header class="centre">
+      <nav class="menu">
+        <nav class="logo">
+          <img src="image/logo.png" alt="" />
+        </nav>
+
+        <div class="navigation">
+          <label for="chk-burger" class="menu__burger"
+            ><img
+              src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=ffffff"
+              width="32"
+              height="32"
+          /></label>
+          <input type="checkbox" id="chk-burger" />
+          <nav class="menu__recherche">
+            <a href="#accueil" class="menu__a red">Accueil</a>
+            <a href="#articles" class="menu__a orange">Exploit</a>
+            <a href="#tableau" class="menu__a yellow">Jeux</a>
+            <a href="#galerie" class="menu__a green">Photos</a>
+            <a href="#video" class="menu__a blue">Vidéos</a>
+            <a href="#inscription" class="menu__a purple">Inscription</a>
+          </nav>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ===================================ACCEUIL -->
+    <div class="conteneur opacite_img">
+      <section class="centre" id="accueil">
+        <div class="layout">
+          <div class="texte">
+            <h2>Arcade du sud-ouest</h2>
+            <p>
+              L'arcade du sud-ouest est un endroit relaxante avec une grande
+              variete de jeux
+            </p>
+            <p>Venez a la plus grande arcade du Canada!</p>
+            <p>il y a :</p>
+            <ul>
+              <li>Des machines Vr</li>
+              <li>Des jeux d'arcade</li>
+              <li>Des prix</li>
+              <li>De la nourriture</li>
+            </ul>
+            <p>Et bien d'autre! venez nous voir!</p>
+            <a class="bouton_ins" href="#inscription">inscription</a>
+          </div>
+
+          <!-- =========================info sur le créateur de la page web -->
+          <div class="info">
+            <h4>Jamila Vargas</h4>
+            <h4>1W1 - Mise en page Web</h4>
+            <h4>Techniques d'intégration Multimédia</h4>
+            <h4>Collège de Maisonneuve</h4>
+            <h4>Automne 2025</h4>
+            <a href="https://github.com/Jamila-V/1W1-TP2"
+              ><img
+                src="https://s2.svgbox.net/social.svg?ic=github&color=ffffff"
+                width="32"
+                height="32"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <img class="trans-fin-ac" src="image/Transition_fin.png" alt="" />
+    </div>
+    <!-- ===================================ARTICLES -->
+    <div class="conteneur">
+      <section class="centre" id="articles">
+        <img src="image/Transition.png" alt="" />
+        <h2>Exploit</h2>
+        <article class="article">
+          <div class="art_div">
+            <h3 class="art_h3">-Notre Endroit-</h3>
+            <h4 class="sous-titre">Endroit reconnnu?</h4>
+            <p>
+              Notre arcade a été reconnu par Record Guisness en étant la plus
+              grosse salle d'arcade.
+            </p>
+          </div>
+          <figure class="art_fig">
+            <img class="art_img" src="image/articles/article_4.webp" alt="" />
+            <figcaption class="art_figcap">Notre édifice</figcaption>
+          </figure>
+        </article>
+
+        <article class="article">
+          <div class="art_div">
+            <h3 class="art_h3">-Nos jeux-</h3>
+            <h4 class="sous-titre">Avons-nous des jeux en masse?</h4>
+            <p>
+              La variété de nos jeux sont à la fine pointe de la technologie.
+            </p>
+          </div>
+          <figure class="art_fig">
+            <img class="art_img" src="image/articles/article_3.jpg" alt="" />
+            <figcaption class="art_figcap">Nos machines</figcaption>
+          </figure>
+        </article>
+
+        <article class="article">
+          <div class="art_div">
+            <h3 class="art_h3">-Coin Prix-</h3>
+            <h4 class="sous-titre">Vous avez trop de points?</h4>
+            <p>
+              Venez dépenser vos points dans notre coin prix avec une grande
+              variété de jouets
+            </p>
+          </div>
+          <figure class="art_fig">
+            <img class="art_img" src="image/articles/article_2.jpg" alt="" />
+            <figcaption class="art_figcap">Notre coin de prix</figcaption>
+          </figure>
+        </article>
+
+        <article class="article">
+          <div class="art_div">
+            <h3 class="art_h3">-Retro-</h3>
+            <h4 class="sous-titre">Aime-tu les jeux rétro?</h4>
+            <p>Nous avons une section rempli de jeux d'arcade depuis 1980.</p>
+          </div>
+          <figure class="art_fig">
+            <img class="art_img" src="image/articles/article_1.jpg" alt="" />
+            <figcaption class="art_figcap">Nos vieux jeux</figcaption>
+          </figure>
+        </article>
+        <img class="trans-fin" src="image/Transition_fin.png" alt="" />
+      </section>
+    </div>
+    <!-- ===================================TABLEAU -->
+    <div class="conteneur">
+      <section class="centre" id="tableau">
+        <img src="image/Transition.png" alt="" />
+
+        <table>
+          <caption>
+            Quelques jeux à decouvrir
+          </caption>
+          <thead>
+            <tr>
+              <th>Jeux</th>
+              <th>Type</th>
+              <th>Coût de point pour jouer</th>
+              <th>Nombre de points</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="body_un">
+              <td>Attaque du dinosaur</td>
+              <td>Tireur</td>
+              <td>3 jeton</td>
+              <td>15 points</td>
+            </tr>
+            <tr class="body_deux">
+              <td>Trouve la balle</td>
+              <td>Jeu logique</td>
+              <td>2 jeton</td>
+              <td>10 points</td>
+            </tr>
+            <tr class="body_trois">
+              <td>Faire un tour dans la savane</td>
+              <td>Vr</td>
+              <td>5 jeton</td>
+              <td>20 points</td>
+            </tr>
+            <tr class="body_quatre">
+              <td>La paille courte</td>
+              <td>Jeu logique</td>
+              <td>1 jeton</td>
+              <td>5 points</td>
+            </tr>
+            <tr class="body_cinq">
+              <td>Mario Kart</td>
+              <td>Course</td>
+              <td>4 jeton</td>
+              <td>17 points</td>
+            </tr>
+          </tbody>
+        </table>
+        <img class="trans-fin" src="image/Transition_fin.png" alt="" />
+      </section>
+    </div>
+    <!-- ===================================GALERIE -->
+    <div class="conteneur">
+      <section class="centre" id="galerie">
+        <img src="image/Transition.png" alt="" />
+        <h2>Photos</h2>
+        <div class="gal_cont">
+          <figure class="gal_fig">
+            <img src="image/galerie/galerie_1.png" alt="" class="gal_img" />
+            <img src="image/galerie/galerie_2.png" alt="" class="gal_img" />
+            <img src="image/galerie/galerie_3.png" alt="" class="gal_img" />
+            <img src="image/galerie/galerie_4.png" alt="" class="gal_img" />
+            <img src="image/galerie/galerie_5.png" alt="" class="gal_img" />
+            <img src="image/galerie/galerie_6.png" alt="" class="gal_img" />
+            <img src="image/galerie/galerie_7.png" alt="" class="gal_img" />
+            <img src="image/galerie/galerie_8.png" alt="" class="gal_img" />
+            <img src="image/galerie/galerie_9.png" alt="" class="gal_img" />
+            <img src="image/galerie/galerie_10.png" alt="" class="gal_img" />
+          </figure>
+        </div>
+        <img class="trans-fin" src="image/Transition_fin.png" alt="" />
+      </section>
+    </div>
+    <!-- ===================================VIDÉO -->
+    <div class="conteneur">
+      <section class="centre" id="video">
+        <img src="image/Transition.png" alt="" />
+        <h2>Vidéos</h2>
+        <figure class="figure_vid">
+          <figure class="vid_fig">
+            <iframe
+              width="400"
+              height="300"
+              src="https://www.youtube.com/embed/EAnx1nUDVyk"
+              title="NEW 2025 Main Event Entertainment Arcade FULL Tour of the LARGEST Arcade!! (Montclair CA)"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </figure>
+          <figure class="vid_fig">
+            <iframe
+              width="400"
+              height="300"
+              src="https://www.youtube.com/embed/XLw0_cIsfr8"
+              title="Arcade Tours: Where the PROS Play @ Timezone Gateway Mall (Manila, Philippines) 🇵🇭"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </figure>
+          <figure class="vid_fig">
+            <iframe
+              width="400"
+              height="300"
+              src="https://www.youtube.com/embed/eSeQPm1RyPY"
+              title="Dave and Buster’s Arcade Tour! | 4K Arcade Tour Walkthrough! | Ontario, California"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </figure>
+        </figure>
+        <img class="trans-fin" src="image/Transition_fin.png" alt="" />
+      </section>
+    </div>
+    <!-- ===================================INSCRIPTION -->
+    <div class="conteneur">
+      <section class="centre" id="inscription">
+        <img src="image/Transition.png" alt="" />
+        <h2>Inscription</h2>
+        <p>Inscrivez-vous à notre info-lettre!</p>
+        <fieldset>
+          <legend>Information personelle</legend>
+          <form class="form__inscription">
+            <div class="center">
+              <input
+                type="radio"
+                name="rad-abonnement"
+                id="rad-0"
+                class="form__rad"
+              />
+              <label for="rad-0">Mme.</label>
+              <input
+                type="radio"
+                name="rad-abonnement"
+                id="rad-0"
+                class="form__rad"
+              />
+              <label for="rad-0">M.</label>
+              <input
+                type="radio"
+                name="rad-abonnement"
+                id="rad-0"
+                class="form__rad"
+              />
+              <label for="rad-0">X</label>
+              <div class="form__div">
+                <label class="form__label" id="nom" for="">Nom:</label>
+                <input
+                  class="form__input"
+                  id="nom"
+                  type="text"
+                  placeholder="Entrez votre nom ici:"
+                />
+              </div>
+              <div class="form__div">
+                <label class="form__label" id="prenom" for="">Prénom:</label>
+                <input
+                  class="form__input"
+                  id="prenom"
+                  type="text"
+                  placeholder="Entrez votre prénom ici:"
+                />
+              </div>
+              <div class="form__div">
+                <label class="form__label" id="courriel" for=""
+                  >Courriel:</label
+                >
+                <input
+                  class="form__input"
+                  id="courriel"
+                  type="type email"
+                  placeholder="Entrez votre courriel ici:"
+                />
+              </div>
+              <div class="form__div">
+                <label class="form__label" id="Téléphone" for=""
+                  >Téléphone:</label
+                >
+                <input
+                  class="form__input"
+                  id="Téléphone"
+                  type="type email"
+                  placeholder="Entrez votre Téléphone ici:"
+                />
+              </div>
+            </div>
+          </form>
+        </fieldset>
+        <fieldset>
+          <legend>Abonnement</legend>
+          <label for="rad-1">Novice</label>
+          <input
+            type="radio"
+            name="rad-abonnement"
+            id="rad-1"
+            class="form__rad"
+          />
+          <label for="rad-2">Intermédiaire</label>
+          <input
+            type="radio"
+            name="rad-abonnement"
+            id="rad-2"
+            class="form__rad"
+          />
+          <label for="rad-3">Pro</label>
+          <input
+            type="radio"
+            name="rad-abonnement"
+            id="rad-3"
+            class="form__rad"
+          />
+        </fieldset>
+        <input
+          class="form__submit"
+          type="submit"
+          value="Valider l'inscription"
+        />
+        <img class="trans-fin" src="image/Transition_fin.png" alt="" />
+      </section>
+    </div>
+
+    <!-- ==========================================================FOOTER -->
+    <footer class="footer centre">
+      <img src="image/Transition.png" alt="" />
+      <div class="rangee_footer">
+        <section>
+          <h2>Adresse</h2>
+          <p>3800 Sherbrooke</p>
+          <p>Montreal,Qc</p>
+          <p>H1X 2A2</p>
+        </section>
+        <section>
+          <h2>Nous rejoindre</h2>
+          <p>Telephone :</p>
+          <p>514-543-4321</p>
+          <p>Courriel :</p>
+          <p>Arcade_sudouest@gmail.com</p>
+        </section>
+        <section>
+          <h2>Horaire</h2>
+          <p>Lundi a Vendredi:</p>
+          <p>11pm - 23pm</p>
+          <p>Samedi et Dimanche:</p>
+          <p>10pm - 12am</p>
+        </section>
+        <section>
+          <h2>Reseau</h2>
+          <h2>sociaux</h2>
+          <div class="icon_reseau">
+            <a href="https://github.com/Jamila-V/1W1-TP2"
+              ><img
+                src="https://s2.svgbox.net/social.svg?ic=github&color=ffffff"
+                width="32"
+                height="32"
+            /></a>
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=instagram&color=ffffff"
+              width="32"
+              height="32"
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=twitter&color=ffffff"
+              width="32"
+              height="32"
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=discord&color=ffffff"
+              width="32"
+              height="32"
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=tiktok&color=ffffff"
+              width="32"
+              height="32"
+            />
+          </div>
+        </section>
+      </div>
+      <div class="extra_pied">
+        <h3>retour accueil</h3>
+        <a class="bouton_acceuil" href="#accueil">Accueil</a>
+        <h3>Avis de confidentialité | Privacy Notice</h3>
+        <h4>
+          Nous nous engageons à protéger la confidentialité et la sécurité de
+          vos informations personnelles. Les données que vous nous fournissez
+          sont utilisées uniquement aux fins pour vous envoyez des informations
+          sur nos services.
+        </h4>
+      </div>
+    </footer>
+  </body>
+</html>
