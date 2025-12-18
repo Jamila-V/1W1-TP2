@@ -1,0 +1,113 @@
+/*============== Font*/
+@font-face {
+  font-family: dynapuff;
+  src: url(/Font/DynaPuff-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: montserrat;
+  src: url(/Font/Montserrat-VariableFont_wght.ttf);
+}
+
+/*============== base*/
+#recette {
+  background-color: aliceblue;
+  color: black;
+}
+/*============== section*/
+.palak,
+.epinard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  padding-bottom: 20px;
+}
+.recette_preparation {
+  width: 100%;
+}
+.recette_ul {
+  width: 600px;
+}
+
+/*============== texte*/
+.recette_h1,
+.recette_h2,
+.recette_h3 {
+  margin: 0;
+  padding: 0;
+
+  padding-bottom: 15px;
+  font-size: 15px;
+
+  text-align: left;
+  transition: none;
+  text-shadow: none;
+  letter-spacing: 0;
+
+  font-family: dynapuff;
+  color: black;
+}
+.recette_h2 {
+  font-size: 1.5rem;
+}
+.recette_h2:hover {
+  transform: none;
+}
+.recette_h1 {
+  font-size: clamp(1.5rem, 10vw, 5rem);
+}
+.recette_cap {
+  font-family: dynapuff;
+  padding: 5px;
+  text-align: center;
+
+  background-color: rgba(128, 128, 128, 0.486);
+}
+
+.recette_p,
+.recette_ul {
+  margin: 0;
+  padding: 0;
+
+  font-family: montserrat;
+  font-size: 15px;
+  text-decoration: none;
+  letter-spacing: 0;
+}
+
+/*============== figure*/
+.rec_fig {
+  transform: rotate(-5deg);
+  border: 5px dotted gray;
+  min-height: 290px;
+}
+
+.rec_fig:nth-last-child(odd) {
+  transform: rotate(5deg);
+  border: 5px dotted gray;
+  min-height: 240px;
+}
+.rec_fig:hover {
+  transform: rotate(0deg);
+}
+
+/*============== separateur*/
+hr.dotted {
+  border-top: 10px dotted #bbb;
+  padding: 10px;
+}
+
+/*============== bouton menu*/
+.bouton_acceuil-rec {
+  text-decoration: none;
+
+  background: linear-gradient(rgb(235, 230, 230), rgb(107, 98, 100));
+  padding: 25px 10px 5px 10px;
+
+  position: relative;
+  left: 1000px;
+}
+.bouton_acceuil-rec:hover {
+  background: linear-gradient(rgb(122, 113, 115), rgb(241, 235, 236));
+}
